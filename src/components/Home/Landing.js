@@ -9,7 +9,7 @@ const Landing = () => {
       <nav className="landing-navbar">
         <div className="brand">
           <Link to="/">
-            <img src="assets/img/shoe-white.png" alt="t-shirt vector" />
+            <img src="assets/img/shoe-white.png" alt="shoe vector" />
           </Link>
         </div>
         <div className="landing-nav">
@@ -29,13 +29,13 @@ const Landing = () => {
         </div>
         <ul className="landing-img-wrap">
           <li className="landing-img">
-            <img src="assets/img/landing-image-1.png" alt="men shirt" />
+            <img src="assets/img/landing-image-1.png" alt="men shoe" />
           </li>
           <li className="landing-img">
-            <img src="assets/img/landing-image-2.png" alt="kids shirt" />
+            <img src="assets/img/landing-image-2.png" alt="kids shoe" />
           </li>
           <li className="landing-img">
-            <img src="assets/img/landing-image-3.png" alt="kids shirt" />
+            <img src="assets/img/landing-image-3.png" alt="kids shoe" />
           </li>
         </ul>
       </div>
