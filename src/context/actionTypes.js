@@ -1,0 +1,4 @@
+export const SET_CURRENT_CATEGORY = "SET_CURRENT_CATEGORY";
+export const SET_CART_ITEM = "SET_CART_ITEM";
+export const DELETE_CART_ITEM = "DELETE_CART_ITEM";
+export const CLEAR_CART = "CLEAR_CART";
