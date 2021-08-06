@@ -3,7 +3,7 @@ import React from "react";
 const Product = ({ id, category, name, img, price, onItemClick }) => {
   return (
     <div className={`card ${category}`}>
-      <img src={`../assets/img/stock/${category}/${img}`} alt={name} />
+      <img src={`assets/img/stock/${category}/${img}`} alt={name} />
       <h4>
         <span className="name">{name}</span>
       </h4>

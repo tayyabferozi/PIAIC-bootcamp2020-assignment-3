@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 
 import Home from "./components/Home/Home";
 import About from "./components/About";
@@ -9,7 +14,7 @@ import GlobalProvider from "./context/GlobalState";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <GlobalProvider>
         <div className="App">
           <Switch>
@@ -27,6 +32,7 @@ function App() {
               component={About}
               layout={Layout}
             />
+            <Redirect to="/" />
           </Switch>
         </div>
       </GlobalProvider>

@@ -26,7 +26,7 @@ const Layout = ({ minimal, children }) => {
       ></div>
       <nav className="shop-nav">
         <Link to="/">
-          <img src="../assets/img/shoe-dark.png" className="logo" alt="logo" />
+          <img src="assets/img/shoe-dark.png" className="logo" alt="logo" />
         </Link>
         <div className="show-sm">
           <div className="hamburger" onClick={menuClickHandler}>
@@ -82,7 +82,7 @@ const Layout = ({ minimal, children }) => {
           <Link className="shop-logo" to="/shop">
             <img
               style={{ width: "2.3rem" }}
-              src="../assets/vector/shop-black.svg"
+              src="assets/vector/shop-black.svg"
               alt="shop"
               className="logo"
             />
@@ -91,10 +91,7 @@ const Layout = ({ minimal, children }) => {
           <div className="my-cart hide-sm" onClick={cartClickHandler}>
             <div className="cart-icon">
               <span className="cart-count">{state.cart.length}</span>
-              <img
-                src="../assets/vector/shopping-cart.svg"
-                alt="shopping-cart"
-              />
+              <img src="assets/vector/shopping-cart.svg" alt="shopping-cart" />
             </div>
           </div>
         )}
@@ -105,7 +102,7 @@ const Layout = ({ minimal, children }) => {
                 <div className="cart-icon" onClick={cartClickHandler}>
                   <span className="cart-count">{state.cart.length}</span>
                   <img
-                    src="../assets/vector/shopping-cart.svg"
+                    src="assets/vector/shopping-cart.svg"
                     alt="shopping-cart"
                   />
                 </div>
@@ -156,7 +153,7 @@ const Layout = ({ minimal, children }) => {
               <Link to="/shop" style={{ display: "flex" }}>
                 <img
                   style={{ width: "2rem" }}
-                  src="../assets/vector/shop-black.svg"
+                  src="assets/vector/shop-black.svg"
                   alt="Shop"
                 />
                 <h3>Shop</h3>
@@ -246,22 +243,22 @@ const Layout = ({ minimal, children }) => {
         <div>
           <h3>Follow Up</h3>
           <img
-            src="../assets/vector/facebook.svg"
+            src="assets/vector/facebook.svg"
             alt="facebook"
             className="social-icon"
           />
           <img
-            src="../assets/vector/twitter.svg"
+            src="assets/vector/twitter.svg"
             alt="twitter"
             className="social-icon"
           />
           <img
-            src="../assets/vector/whatsapp.svg"
+            src="assets/vector/whatsapp.svg"
             alt="whatsapp"
             className="social-icon"
           />
           <img
-            src="../assets/vector/instagram.svg"
+            src="assets/vector/instagram.svg"
             alt="instagram"
             className="social-icon"
           />

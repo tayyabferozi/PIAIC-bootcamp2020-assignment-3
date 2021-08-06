@@ -1,5 +1,6 @@
 {
   "name": "project-3",
+  "homepage": "https://tayyabferozi.github.io/PIAIC-bootcamp2020-assignment-3",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -r https://github.com/tayyabferozi/PIAIC-bootcamp2020-assignment-3.git"
   },
   "eslintConfig": {
     "extends": [
